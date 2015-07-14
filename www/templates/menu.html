@@ -1,0 +1,43 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-stable">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+    <ion-header-bar class="bar-stable">
+      <h1 class="title">Menu</h1>
+    </ion-header-bar>
+    <ion-content>
+      <ion-list>
+        <ion-item nav-clear menu-close href="#/app/front">
+          Dashboard
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/GPU">
+          GPU
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/GPK">
+          GPK
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/GPS">
+          GPS
+        </ion-item>
+        <ion-item nav-clear menu-close href="#/app/FAQ">
+          FAQ
+        </ion-item>
+      </ion-list>
+      <p>Powered by:</p>
+      <center><img src="img/fl_logo.png" height="100" width="150"></center>
+      <center><img src="img/logo-01.png" height="125" width="208"></center>
+
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
